@@ -7,7 +7,7 @@ The main aim of this project will be to port core functionalities of Xcos to a b
 
 	 git clone https://github.com/FOSSEE/xcos_on_cloud
 
-	 Follow the steps given in the INSTALL.pdf file.
+	 Follow the steps given in the INSTALL.pdf file. Dont forget to set SCILAB_DIR to point to your scilab source directory.
 
 
 ## License information

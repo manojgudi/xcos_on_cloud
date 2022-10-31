@@ -1,6 +1,8 @@
+import os
 # The location of the extracted scilab_for_xcos_on_cloud. This can be either
 # relative to SendLog.py or an absolute path.
-SCILAB_DIR = '../scilab_for_xcos_on_cloud'
+SCILAB_DIR = os.environ.get("SCILAB_DIR", "../scilab_for_xcos_on_cloud")
+#SCILAB_DIR = '../scilab_for_xcos_on_cloud'
 
 # The location to keep the flask session data on server.
 FLASKSESSIONDIR = '/tmp/flask-sessiondir'
