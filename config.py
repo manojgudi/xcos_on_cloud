@@ -28,7 +28,7 @@ XCOSSOURCEDIR = ''
 
 # the http server settings
 
-HTTP_SERVER_HOST = '127.0.0.1'
+HTTP_SERVER_HOST = '0.0.0.0'
 HTTP_SERVER_PORT = 8001
 
 # the database server settings
